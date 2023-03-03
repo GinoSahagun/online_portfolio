@@ -1,4 +1,16 @@
-# OnlinePortfolio
+# My Online Portfolio
+
+## Introduction
+A few things about myself is being able to work in a field that can create anything. While Technology is a big part of my life, I enjoy exploring new tools by building websites, mobile apps, or even small personal apps. Some of my favorite languages to use are C++, Java, C#, and JavaScript. However, the idea of problem solving and finding an optimize solution is an unexplainable feeling that keeps me coding.
+
+When I’m not coding much in Java or C++ or thinking of what to start next. I'm having a good time with mates and doing entertaining things like slaying dragons and what have you. 
+
+
+## My Projects
+
+
+## Ways to Reach me
+
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
