@@ -5,7 +5,7 @@
 <p align="center">
 <a href="https://www.buymeacoffee.com/gino.sahagun" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
-<p align="center"><img src="https://komarev.com/ghpvc/?username=kakbar&style=flat-square&color=blue" alt=""></p>
+<p align="center"><img src="https://komarev.com/ghpvc/?username=GinoSahagun&style=flat-square&color=blue" alt=""></p>
 
 <h1 align="center">hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></h1>
 
@@ -18,7 +18,7 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 - 🔭 I’m working as a Software Engineer and doing full stack development.
 - 🌱 Exploring Technology.
 - ⚡ In my free time I usually read tech articles, play soccer, or having a beer.
-- 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/carlossahagun/)
+- 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-GinoSahagun-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/carlossahagun/)
 
 ---
 
