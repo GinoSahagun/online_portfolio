@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "npx nx build portfolio",
-    "export": "npx nx export portfolio"
+    "build": "nx build portfolio",
+    "export": "nx export portfolio"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
