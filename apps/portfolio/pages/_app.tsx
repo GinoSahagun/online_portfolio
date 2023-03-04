@@ -1,18 +1,20 @@
 import { AppProps } from 'next/app';
-import Head from 'next/head';
+import { ThemeProvider } from "@mui/material";
+import { CacheProvider } from "@emotion/react";
+import { theme } from "../styles/theme";
+import { createEmotionCache } from "../styles/theme";
 import './styles.css';
 
-function CustomApp({ Component, pageProps }: AppProps) {
+const clientSideEmotionCache = createEmotionCache();
+
+function MyApp({Component, pageProps}: AppProps) {
   return (
-    <>
-      <Head>
-        <title>Welcome to portfolio!</title>
-      </Head>
-      <main className="app">
+    <CacheProvider value={clientSideEmotionCache}>
+      <ThemeProvider theme={theme}>
         <Component {...pageProps} />
-      </main>
-    </>
+      </ThemeProvider>
+    </CacheProvider>
   );
 }
 
-export default CustomApp;
+export default MyApp;

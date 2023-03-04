@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.11.11",
     "@nrwl/next": "15.8.3",
