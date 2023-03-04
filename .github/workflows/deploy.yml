@@ -63,7 +63,7 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Install dependency for linux
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }} @nrwl/nx-linux-x64-gnu
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }} @nrwl/nx-linux-x64-gnu @next/swc-linux-x64-gnu
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} npm run build
       - name: Static HTML export with Next.js
@@ -71,7 +71,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./apps/portfolio
+          path: ./apps/portfolio/exported
 
   # Deployment job
   deploy:
