@@ -1,9 +1,31 @@
 import React from 'react'
+import StyledNav from '@/components/StyledNavbar';
 
-const index = props => {
+interface Props {
+  children: string | JSX.Element | JSX.Element[]
+}
+
+const navItems = [
+  {
+    name: 'Home',
+    href: '/'
+  },
+  {
+    name: 'About',
+    href: '/about'
+  },
+  {
+    name: 'Projects',
+    href: '/projects'
+  }
+]
+
+const Navbar = ({children} : Props) => {
   return (
-    <div>index</div>
+    <StyledNav navItems={navItems}>
+      {children}
+    </StyledNav>
   )
 }
 
-export default index
+export default Navbar;

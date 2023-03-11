@@ -3,6 +3,7 @@
   "version": "0.0.0-Semantic-Release",
   "license": "MIT",
   "scripts": {
+    "start": "nx serve portfolio",
     "build": "nx build portfolio",
     "export": "nx export portfolio",
     "commit": "npx cz"

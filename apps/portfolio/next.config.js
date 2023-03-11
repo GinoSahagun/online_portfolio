@@ -6,7 +6,7 @@ const { withNx } = require('@nrwl/next/plugins/with-nx');
 const isGithubActions = process.env.GITHUB_ACTIONS || false
 
 let assetPrefix = ''
-let basePath = '/'
+let basePath = '';
 
 if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
