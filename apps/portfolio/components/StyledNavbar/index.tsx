@@ -77,6 +77,7 @@ export default function DrawerAppBar({ navItems }: Props) {
       </AppBar>
       <Box component="nav">
         <SwipeableDrawer
+          onOpen={handleDrawerToggle}
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
