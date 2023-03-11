@@ -1,10 +1,11 @@
 {
   "name": "online-portfolio",
-  "version": "0.0.0",
+  "version": "0.0.0-Semantic-Release",
   "license": "MIT",
   "scripts": {
     "build": "nx build portfolio",
-    "export": "nx export portfolio"
+    "export": "nx export portfolio",
+    "commit": "npx cz"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -27,6 +28,8 @@
     "@nrwl/nx-cloud": "latest",
     "@nrwl/react": "15.8.3",
     "@nrwl/workspace": "15.8.3",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
     "@testing-library/react": "14.0.0",
     "@types/jest": "^29.4.0",
     "@types/node": "18.14.2",
@@ -35,7 +38,9 @@
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "babel-jest": "^29.4.1",
+    "commitizen": "^4.3.0",
     "cypress": "^12.2.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "~8.15.0",
     "eslint-config-next": "13.1.1",
     "eslint-config-prettier": "8.1.0",
@@ -44,6 +49,7 @@
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "^8.0.3",
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
     "nx": "15.8.3",
@@ -53,5 +59,15 @@
     "ts-jest": "^29.0.5",
     "ts-node": "10.9.1",
     "typescript": "~4.9.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
   }
 }
