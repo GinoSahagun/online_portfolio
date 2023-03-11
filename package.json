@@ -11,6 +11,7 @@
     "@emotion/react": "^11.10.6",
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.11",
     "@nrwl/next": "15.8.3",
     "next": "13.1.1",
